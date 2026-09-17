@@ -191,7 +191,7 @@ def delete_patient(patient_id: int, db: Session = Depends(get_db)):
         )
 
 
-
+print("hello world")
 
 
 # patch and delete patient_readings
