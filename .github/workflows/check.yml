@@ -1,0 +1,19 @@
+name: check
+
+
+
+on:
+  push:
+    branches: [main]
+    pull_requests:
+    workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show file
+        run: cat file2.txt
+      - name: Count lines
+        run: wc -l file2.txt
