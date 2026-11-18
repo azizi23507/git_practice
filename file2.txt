@@ -7,3 +7,4 @@ learning ML
 learn ai
 learn stats
 learn stats
+learn python
