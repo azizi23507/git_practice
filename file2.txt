@@ -10,3 +10,4 @@ learn stats
 learn python
 hello
 learn math
+learn history
